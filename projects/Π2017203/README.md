@@ -10,7 +10,7 @@
 ###### pip3 install terminaltables
 ##### δ) Δημιουργία python script με όνομα 'torrent_search', που θα εκτελείται απο κονσόλα, κάνει αναζήτηση σε torrent server και θα επιστρέφει τα αποτελέσματα στο τερματικό. Ο κώδικας προέρχεται απο αναζήτηση στον διαδίκτυο.
 ###### vi torrent_search 
-##### (o κώδικας του αρχείου μπήκε σε ξεχωριστό αρχείο, για λόγους ομοιομορφίας. Το αρχείο είναι το torrent_search που βρίσκεται στον ίδιο φάκελο με το readme.md)
+###### (o κώδικας του αρχείου μπήκε σε ξεχωριστό αρχείο, για λόγους ομοιομορφίας. Το αρχείο είναι το torrent_search που βρίσκεται στον ίδιο φάκελο με το readme.md)
 ##### Για να μην χρειάζεται κάθε φορά να καλούμε το script μέσα απο το full path της python, δίνουμε το χαρακτηριστικό python στο script, προσθέτοντας στην πρώτη γραμμή του αρχείου το shebang:
 ###### #!/usr/bin/env python3
 ##### ε) Μετατροπή του αρχείου σε εκτελέσιμο. 
@@ -27,7 +27,7 @@
 ###### sudo service transmission -daemon stop
 ###### sudo usermode -a -G debian-transmission andreas
 ###### sudo service transmission -daemon start
-##### η) Κάνω την αναζήτησή μου 
+##### η) Κάνω την αναζήτησή μου (keyword="wind")
 ###### ./torrent_search wind
 ##### Επιλέγω  ένα απο τα αποτελέσματα, και παίρνω απο εκει το magnetic link. Στην συνέχεια το βάζω στον torrent client
 ###### transmission-remote -a "magnetic link"
